@@ -11,7 +11,7 @@ builds:
     main: ./
     ldflags:
       - -extldflags '-static'
-      - -s -w -X version={{.Version}}
+      - -s -w -X main.version={{.Version}}
 
 archives:
   - format: binary
