@@ -70,7 +70,7 @@ func (p *PluginRegistryUpdate) Success(config *hooks.SuccessHookConfig) error {
 	return nil
 }
 
-func (p *PluginRegistryUpdate) NoRelease(config *hooks.NoReleaseConfig) error {
+func (p *PluginRegistryUpdate) NoRelease(_ *hooks.NoReleaseConfig) error {
 	return nil
 }
 
